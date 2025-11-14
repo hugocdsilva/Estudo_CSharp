@@ -100,3 +100,52 @@ string resultadoX = x % 2 == 0 ? "Par" : "ìmpar";
 string resultadoY = y % 2 == 0 ? "Par" : "ìmpar";
 
 Console.WriteLine($"O valor de \"x\" é {resultadoX}, e o valor \"y\" é {resultadoY}.");
+
+
+6.  Crie um programa que receba um numero inteiro x via teclado e calcule e imprima no
+console o resultado das seguintes operações : (x^2 -> x ao quadrado) (pi = 3.1415)
+
+/*12.
+double pi = 3.1415;
+Console.WriteLine("pi = 3.1415");
+Console.WriteLine("Escolha um número inteiro para representar \"x\":");
+int numero = int.Parse(Console.ReadLine());
+Console.WriteLine();
+
+Console.WriteLine($"O resultado da equação: -6+x*5 = {-6+numero*5}");
+Console.WriteLine($"O resultado da equação: (13-2)*x = {(13-2)*numero}");
+Console.WriteLine($"O resultado da equação: (x + -2) * (20 / x) = {(numero + -2) * (20 / numero)}");
+Console.WriteLine($"O resultado da equação: (12 + x) / (x - 4) = {(12 + numero) / (numero - 4)}");
+Console.WriteLine($"O resultado da equação: 3 x^2 + x + 10 = {numero^2 + numero + 10}");
+Console.WriteLine($"O resultado da equação: pi * x^2 = {pi * Math.Pow(numero, 2)}");*/
+
+
+7. Escreva um programa que solicite a temperatura em graus Celsius e converta para
+Kelvin e Farhenheit usando as fórmulas a seguir:
+
+Console.WriteLine("Informe o valor de Celsius para que converta para Kelvin:");
+double celsius = double.Parse(Console.ReadLine());
+Console.WriteLine();
+
+Console.WriteLine($"O valor em Kelvin é {celsius+273}");
+Console.WriteLine("---------------------------------");
+
+Console.WriteLine("Informe o valor de Celsius para que converta para Farhenheit:");
+double celsius1 = double.Parse(Console.ReadLine());
+Console.WriteLine();
+
+Console.WriteLine($"O valor em Farhenheit é {(celsius1*9) / 5 + 32}");
+Console.WriteLine();*/
+
+
+8. Escolha a opção que representa a exibição do resultado para o código usando os
+operadores de decremento e incremento (pré e pós) :
+
+var numero = 5;
+Console.WriteLine($"Primeiro: {numero++}.");
+var numero1 = 1;
+Console.WriteLine($"Segundo: {++numero1}.");
+var numero2 = 2;
+Console.WriteLine($"Terceiro: {numero2--}.");
+var numero3 = 3;
+Console.WriteLine($"Quarto: {--numero3}.");
